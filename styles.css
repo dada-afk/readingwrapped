@@ -1,0 +1,85 @@
+body {
+    background: #BE95C4;
+    color: #231942;
+    font-family: "Azeret Mono", serif;
+    text-align: center;
+    margin: 0;
+}
+
+img {
+    height: 24rem;
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+#header-caption {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.book-title {
+    font-size: 2rem;
+}
+
+#header {
+    height: 70rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section {
+    padding: 3rem 1rem 5rem 1rem;
+}
+
+.pink {
+    background: #ef9fdc;
+}
+
+th {
+    background: #5E548E;
+    font-size: 2rem;
+    padding: 0.5rem 1em;
+}
+
+td {
+    background: #9F86C0;
+    font-size: 2rem;
+    padding: 0.5rem 1em;
+}
+
+table {
+    margin: 0 auto;
+}
+
+.book-caption {
+    width: 40rem;
+    background: #D9C6DC;
+    padding: 1rem;
+}
+
+.book {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 50%;
+    }
+}
